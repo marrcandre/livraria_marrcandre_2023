@@ -1,0 +1,51 @@
+
+[tool.pdm]
+[tool.pdm.dev-dependencies]
+dev = [
+    "isort>=5.12.0",
+    "black>=23.3.0",
+]
+
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "Marco André Mendes", email = "marcoandre@gmail.com"},
+]
+dependencies = [
+    "django>=4.1.7",
+    "djangorestframework>=3.14.0",
+    "pygraphviz>=1.11",
+    "django-extensions>=3.2.3",
+    "django-cors-headers>=4.0.0",
+    "djangorestframework-simplejwt>=5.2.2",
+    "setuptools>=68.0.0",
+]
+requires-python = ">=3.10"
+license = {text = "MIT"}
+
+[[tool.pdm.autoexport]]
+filename = "requirements.txt"
+without-hashes = "true"
+
+
+[[tool.pdm.autoexport]]
+filename = "requirements.txt"
+without-hashes = "true"
+
+
+[[tool.pdm.autoexport]]
+filename = "requirements.txt"
+without-hashes = "true"
+
+
+[[tool.pdm.autoexport]]
+filename = "requirements.txt"
+without-hashes = "true"
+
+
+[[tool.pdm.autoexport]]
+filename = "requirements.txt"
+without-hashes = "true"
+
