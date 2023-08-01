@@ -1,0 +1,20 @@
+databases:
+  - name: config
+    databaseName: config
+    user: config
+
+services:
+  - type: web
+    name: config
+    runtime: python
+    buildCommand: "./build.sh"
+    startCommand: "gunicorn config.wsgi:application"
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: config
+          property: connectionString
+      - key: SECRET_KEY
+        generateValue: true
+      - key: WEB_CONCURRENCY
+        value: 4

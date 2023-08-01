@@ -2,6 +2,7 @@ from django.db import models
 
 from livraria.models import Autor, Categoria, Editora
 
+
 class Livro(models.Model):
     titulo = models.CharField(max_length=255)
     isbn = models.CharField(max_length=32, null=True, blank=True)
