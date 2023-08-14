@@ -10,7 +10,13 @@ from drf_spectacular.views import (
 from rest_framework.routers import DefaultRouter
 from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 
-from livraria.views import AutorViewSet, CategoriaViewSet, EditoraViewSet, LivroViewSet, CompraViewSet
+from livraria.views import (
+    AutorViewSet,
+    CategoriaViewSet,
+    CompraViewSet,
+    EditoraViewSet,
+    LivroViewSet,
+)
 from uploader.router import router as uploader_router
 from usuario.router import router as usuario_router
 
