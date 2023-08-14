@@ -1,8 +1,8 @@
 from django.contrib import admin
 
-from .models import Autor, Categoria, Compra, Editora, Livro
+from .models import Autor, Categoria, Compra, Editora, ItensCompra, Livro
 
-admin.site.register(Compra)
+# admin.site.register(Compra)
 
 
 @admin.register(Autor)
@@ -39,3 +39,10 @@ class LivroAdmin(admin.ModelAdmin):
     )
     ordering = ("titulo", "editora", "categoria")
     list_per_page = 25
+
+class ItensCompraInline(admin.TabularInline):
+    model = ItensCompra
+
+@admin.register(Compra)
+class CompraAdmin(admin.ModelAdmin):
+    inlines = [ItensCompraInline]
