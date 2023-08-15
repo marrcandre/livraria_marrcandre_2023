@@ -8,7 +8,7 @@ class ItensCompraSerializer(ModelSerializer):
 
     class Meta:
         model = ItensCompra
-        fields = ("livro", "quantidade", "total")
+        fields = ("quantidade", "total", "livro")
         depth = 2
 
     def get_total(self, obj):
@@ -22,4 +22,4 @@ class CompraSerializer(ModelSerializer):
 
     class Meta:
         model = Compra
-        fields = "__all__"
+        fields = ("id", "usuario", "status", "total", "itens")

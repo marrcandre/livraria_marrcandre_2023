@@ -33,3 +33,7 @@ license = {text = "MIT"}
 [[tool.pdm.autoexport]]
 filename = "requirements.txt"
 without-hashes = "true"
+
+[tool.black]
+line-length = 120
+

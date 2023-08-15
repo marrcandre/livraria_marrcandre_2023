@@ -77,9 +77,7 @@ class Migration(migrations.Migration):
                 ("quantidade", models.IntegerField(blank=True, default=0, null=True)),
                 (
                     "preco",
-                    models.DecimalField(
-                        blank=True, decimal_places=2, max_digits=7, null=True
-                    ),
+                    models.DecimalField(blank=True, decimal_places=2, max_digits=7, null=True),
                 ),
                 (
                     "autores",
