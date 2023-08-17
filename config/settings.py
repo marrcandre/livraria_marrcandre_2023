@@ -12,19 +12,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 # SECRET_KEY = "django-insecure-04ufqg@-a%b9h)2_0#m%mq)rp+79pmat9zj8s&o&@tvi*j3bri"
-SECRET_KEY = os.environ.get(
-    "SECRET_KEY",
-    default="django-insecure-04ufqg@-aab9h)2_0#m%mq)rp+79pmat9zj8s&o&@tvi*j3bri",
-)
+SECRET_KEY = os.environ.get("SECRET_KEY") 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-# DEBUG = True
-DEBUG = "RENDER" not in os.environ
+DEBUG = os.environ.get("DEBUG") == "True"
 
 ALLOWED_HOSTS = ["*"]
-RENDER_EXTERNAL_HOSTNAME = os.environ.get("RENDER_EXTERNAL_HOSTNAME")
-if RENDER_EXTERNAL_HOSTNAME:
-    ALLOWED_HOSTS.append(RENDER_EXTERNAL_HOSTNAME)
+CSRF_TRUSTED_ORIGINS = ["*"]
 
 # Application definition
 INSTALLED_APPS = [
@@ -81,6 +75,7 @@ WSGI_APPLICATION = "config.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
+# Banco de Dados externo
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
@@ -91,6 +86,15 @@ DATABASES = {
         "PORT": os.environ.get("DATABASE_PORT"),
     }
 }
+
+# Banco de Dados local
+# DATABASES = {
+#     "default": {
+#         "ENGINE": "django.db.backends.sqlite3",
+#         "NAME": BASE_DIR / "db.sqlite3",
+#     }
+# }
+
 
 # if os.environ.get("MODE") == "PRODUCTION":
 #     DATABASES = {
