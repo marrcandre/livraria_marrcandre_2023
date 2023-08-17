@@ -14,7 +14,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 DEBUG = os.environ.get("DEBUG") == "True"
 
 ALLOWED_HOSTS = ["*"]
-CSRF_TRUSTED_ORIGINS = ["http://localhost:3000", "http://localhost:8000", "https://livraria-render-7e92-dev.fl0.io/"]
+CSRF_TRUSTED_ORIGINS = ["http://localhost:3000", "http://localhost:8000", "https://*.livraria-render-7e92-dev.fl0.io/"]
 
 # Application definition
 INSTALLED_APPS = [
@@ -145,7 +145,7 @@ USE_TZ = True
 STATIC_URL = "/static/"
 
 # Following settings only make sense on production and may break development environments.
-if not DEBUG:
+if os.environ.get("MODE") == "PRODUCTION":
     # Tell Django to copy statics to the `staticfiles` directory
     # in your application directory on Render.
     STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
