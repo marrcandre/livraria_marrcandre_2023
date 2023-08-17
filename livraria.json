@@ -13569,46 +13569,6 @@
   }
 },
 {
-  "model": "usuario.usuario",
-  "pk": 1,
-  "fields": {
-    "password": "pbkdf2_sha256$600000$VzcspEGWSGfqHJQmRKGqxt$57VcJBcfoZI1s2Eh+KpSP9/3KH1D2YaNYFf/cKPJqHM=",
-    "last_login": "2023-08-11T11:41:07.787Z",
-    "is_superuser": true,
-    "first_name": "Marco André",
-    "last_name": "Mendes",
-    "is_staff": true,
-    "is_active": true,
-    "date_joined": "2023-07-04T17:35:54.015Z",
-    "email": "a@a.com",
-    "cpf": "936.827.869",
-    "telefone": "47991675523",
-    "data_nascimento": "1973-10-29",
-    "groups": [],
-    "user_permissions": []
-  }
-},
-{
-  "model": "usuario.usuario",
-  "pk": 2,
-  "fields": {
-    "password": "pbkdf2_sha256$600000$PPr671RTgS3wXLwDQtwRvQ$LXgf7XmNSmIOmjc0CmiT7RXtLQ2TvqsRquK8A3llTMI=",
-    "last_login": null,
-    "is_superuser": false,
-    "first_name": "",
-    "last_name": "",
-    "is_staff": true,
-    "is_active": true,
-    "date_joined": "2023-07-04T17:38:31.870Z",
-    "email": "marco.mendes@ifc.edu.br",
-    "cpf": null,
-    "telefone": null,
-    "data_nascimento": null,
-    "groups": [],
-    "user_permissions": []
-  }
-},
-{
   "model": "livraria.autor",
   "pk": 1,
   "fields": {
