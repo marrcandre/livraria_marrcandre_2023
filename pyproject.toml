@@ -14,7 +14,7 @@ authors = [
     {name = "Marco André Mendes", email = "marcoandre@gmail.com"},
 ]
 dependencies = [
-    "django>=4.1.7",
+    "django>=4.2.4",
     "djangorestframework>=3.14.0",
     "django-cors-headers>=4.0.0",
     "djangorestframework-simplejwt>=5.2.2",

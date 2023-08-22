@@ -3,7 +3,9 @@
 
 asgiref==3.7.2
 attrs==23.1.0
+black==23.7.0
 Brotli==1.0.9
+click==8.1.6
 django==4.2.4
 django-cors-headers==4.2.0
 django-extensions==3.2.3
@@ -12,10 +14,14 @@ djangorestframework-simplejwt==5.2.2
 drf-spectacular==0.26.4
 gunicorn==21.2.0
 inflection==0.5.1
+isort==5.12.0
 jsonschema==4.19.0
 jsonschema-specifications==2023.7.1
+mypy-extensions==1.0.0
 packaging==23.1
+pathspec==0.11.2
 Pillow==10.0.0
+platformdirs==3.10.0
 psycopg2-binary==2.9.7
 pydotplus==2.0.2
 pyjwt==2.8.0
