@@ -9,12 +9,11 @@ class ItensCompraSerializer(ModelSerializer):
 
     class Meta:
         model = ItensCompra
-        fields = ("quantidade", "total", "livro")
+        fields = ("quantidade", "preco_item", "total", "livro")
         depth = 2
 
-    def get_total(self, obj):
-        return obj.quantidade * obj.livro.preco
-
+    def get_total(self, instance):
+        return instance.quantidade * instance.preco_item
 
 class CompraSerializer(ModelSerializer):
     usuario = CharField(source="usuario.email", read_only=True)
@@ -37,6 +36,12 @@ class CriarEditarItensCompraSerializer(ModelSerializer):
                 {"quantidade": "Quantidade solicitada não disponível em estoque."}
             )
         return data
+
+    def create(self, validated_data):
+        item = ItensCompra.objects.create(**validated_data)
+        item.preco_item = item.livro.preco
+        item.save()
+        return item
 
 
 class CriarEditarCompraSerializer(ModelSerializer):
@@ -63,3 +68,4 @@ class CriarEditarCompraSerializer(ModelSerializer):
                 ItensCompra.objects.create(compra=instance, **item)
         instance.save()
         return instance
+
