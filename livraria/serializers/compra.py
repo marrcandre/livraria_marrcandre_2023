@@ -37,11 +37,11 @@ class CriarEditarItensCompraSerializer(ModelSerializer):
             )
         return data
 
-    def create(self, validated_data):
-        item = ItensCompra.objects.create(**validated_data)
-        item.preco_item = item.livro.preco
-        item.save()
-        return item
+    # def create(self, validated_data):
+    #     print ("Validate data: ", **validated_data)
+    #     validated_data["preco_item"] = validated_data["livro"].preco
+
+    #     return ItensCompra.objects.create(**validated_data)
 
 
 class CriarEditarCompraSerializer(ModelSerializer):
