@@ -28,10 +28,6 @@ class Compra(models.Model):
 
     @property
     def total(self):
-        # total = 0
-        # for item in self.itens.all():
-        #     total += item.livro.preco * item.quantidade
-        # return total
         return sum(item.preco_item * item.quantidade for item in self.itens.all())
 
     def __str__(self):
