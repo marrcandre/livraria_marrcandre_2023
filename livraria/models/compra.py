@@ -32,7 +32,7 @@ class Compra(models.Model):
         # for item in self.itens.all():
         #     total += item.livro.preco * item.quantidade
         # return total
-        return sum(item.livro.preco * item.quantidade for item in self.itens.all())
+        return sum(item.preco_item * item.quantidade for item in self.itens.all())
 
     def __str__(self):
         return f"Compra {self.id} - {self.usuario.email}"

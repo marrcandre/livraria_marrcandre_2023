@@ -19,3 +19,4 @@ class CompraViewSet(ModelViewSet):
         if self.action == "list" or self.action == "retrieve":
             return CompraSerializer
         return CriarEditarCompraSerializer
+    

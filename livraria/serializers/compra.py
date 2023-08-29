@@ -37,12 +37,6 @@ class CriarEditarItensCompraSerializer(ModelSerializer):
             )
         return data
 
-    # def create(self, validated_data):
-    #     print ("Validate data: ", **validated_data)
-    #     validated_data["preco_item"] = validated_data["livro"].preco
-
-    #     return ItensCompra.objects.create(**validated_data)
-
 
 class CriarEditarCompraSerializer(ModelSerializer):
     itens = CriarEditarItensCompraSerializer(many=True)
@@ -56,6 +50,7 @@ class CriarEditarCompraSerializer(ModelSerializer):
         itens = validated_data.pop("itens")
         compra = Compra.objects.create(**validated_data)
         for item in itens:
+            item["preco_item"] = item["livro"].preco # Coloquem o preço do livro no item de compra
             ItensCompra.objects.create(compra=compra, **item)
         compra.save()
         return compra
