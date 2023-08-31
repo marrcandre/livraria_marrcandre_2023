@@ -13,7 +13,7 @@ from livraria.serializers import (
 class LivroViewSet(ModelViewSet):
     queryset = Livro.objects.all()
     filter_backends = [DjangoFilterBackend, SearchFilter, OrderingFilter]
-    filterset_fields = ["categoria", "editora", "autores"]
+    filterset_fields = ["categoria__descricao", "editora__nome"]
     search_fields = ["titulo"]
     ordering_fields = ["titulo", "preco"]
     ordering = ["titulo"]

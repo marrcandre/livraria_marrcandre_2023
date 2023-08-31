@@ -11,6 +11,8 @@ class CompraViewSet(ModelViewSet):
     filter_backends = [DjangoFilterBackend, SearchFilter, OrderingFilter]
     filterset_fields = ["usuario", "status"]
     search_fields = ["usuario__username", "status"]
+    ordering_fields = ["usuario", "status"]
+    ordering = ["usuario"]
 
     def get_queryset(self):
         usuario = self.request.user
