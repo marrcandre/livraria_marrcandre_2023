@@ -9,9 +9,9 @@ from livraria.serializers import CompraSerializer, CriarEditarCompraSerializer
 class CompraViewSet(ModelViewSet):
     queryset = Compra.objects.all()
     filter_backends = [DjangoFilterBackend, SearchFilter, OrderingFilter]
-    filterset_fields = ["usuario", "status"]
+    filterset_fields = ["usuario", "data", "status"]
     search_fields = ["usuario__email", "status"]
-    ordering_fields = ["usuario__email", "status"]
+    ordering_fields = ["usuario__email", "data", "status"]
     ordering = ["usuario"]
 
     def get_queryset(self):
