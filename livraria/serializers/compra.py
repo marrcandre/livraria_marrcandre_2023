@@ -1,5 +1,5 @@
-from rest_framework.serializers import CharField, ModelSerializer, SerializerMethodField
 from rest_framework import serializers
+from rest_framework.serializers import CharField, ModelSerializer, SerializerMethodField
 
 from livraria.models import Compra, ItensCompra
 
@@ -14,6 +14,7 @@ class ItensCompraSerializer(ModelSerializer):
 
     def get_total(self, instance):
         return instance.quantidade * instance.preco_item
+
 
 class CompraSerializer(ModelSerializer):
     usuario = CharField(source="usuario.email", read_only=True)
@@ -32,9 +33,7 @@ class CriarEditarItensCompraSerializer(ModelSerializer):
 
     def validate(self, data):
         if data["quantidade"] > data["livro"].quantidade:
-            raise serializers.ValidationError(
-                {"quantidade": "Quantidade solicitada não disponível em estoque."}
-            )
+            raise serializers.ValidationError({"quantidade": "Quantidade solicitada não disponível em estoque."})
         return data
 
 
@@ -50,7 +49,7 @@ class CriarEditarCompraSerializer(ModelSerializer):
         itens = validated_data.pop("itens")
         compra = Compra.objects.create(**validated_data)
         for item in itens:
-            item["preco_item"] = item["livro"].preco # Coloquem o preço do livro no item de compra
+            item["preco_item"] = item["livro"].preco  # Coloquem o preço do livro no item de compra
             ItensCompra.objects.create(compra=compra, **item)
         compra.save()
         return compra
@@ -63,4 +62,3 @@ class CriarEditarCompraSerializer(ModelSerializer):
                 ItensCompra.objects.create(compra=instance, **item)
         instance.save()
         return instance
-

@@ -6,7 +6,7 @@ from livraria.serializers import CompraSerializer, CriarEditarCompraSerializer
 
 class CompraViewSet(ModelViewSet):
     queryset = Compra.objects.all()
-    
+
     def get_queryset(self):
         usuario = self.request.user
         if usuario.is_superuser:
@@ -19,4 +19,3 @@ class CompraViewSet(ModelViewSet):
         if self.action == "list" or self.action == "retrieve":
             return CompraSerializer
         return CriarEditarCompraSerializer
-    
