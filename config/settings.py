@@ -20,7 +20,9 @@ INSTALLED_APPS = [
     "django.contrib.contenttypes",
     "django.contrib.sessions",
     "django.contrib.messages",
-    "django.contrib.staticfiles",
+    'cloudinary_storage',
+    'django.contrib.staticfiles',
+    'cloudinary',
     "django_extensions",
     "corsheaders",
     "drf_spectacular",
@@ -129,7 +131,11 @@ SPECTACULAR_SETTINGS = {
 
 AUTH_USER_MODEL = "usuario.Usuario"
 
-MEDIA_URL = "http://localhost:8000/media/"
+if MODE == "PRODUCTION":
+    CLOUDINARY_URL = os.getenv("CLOUDINARY_URL")
+    DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
+
+MEDIA_URL = '/media/' 
 MEDIA_ENDPOINT = "/media/"
 MEDIA_ROOT = os.path.join(BASE_DIR, "media/")
 FILE_UPLOAD_PERMISSIONS = 0o640
@@ -138,3 +144,5 @@ SIMPLE_JWT = {
     "ACCESS_TOKEN_LIFETIME": timedelta(minutes=180),
     "REFRESH_TOKEN_LIFETIME": timedelta(days=1),
 }
+
+
