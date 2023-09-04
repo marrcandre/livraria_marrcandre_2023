@@ -113,7 +113,7 @@ if MODE in ["PRODUCTION", "MIGRATE"]:
 STATIC_URL = "/static/"
 
 if MODE in ["PRODUCTION", "MIGRATE"]:
-    STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
+    STATIC_ROOT = os.path.join(BASE_DIR, "static")
     STATICFILES_STORAGE = 'cloudinary_storage.storage.StaticHashedCloudinaryStorage'
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
