@@ -14,7 +14,7 @@ authors = [
     {name = "Marco André Mendes", email = "marcoandre@gmail.com"},
 ]
 dependencies = [
-    "django>=4.2.4",
+    "django>=4.2.5",
     "djangorestframework>=3.14.0",
     "django-cors-headers>=4.0.0",
     "djangorestframework-simplejwt>=5.2.2",
@@ -29,6 +29,7 @@ dependencies = [
     "python-dotenv>=1.0.0",
     "django-filter>=23.2",
     "django-cloudinary-storage>=0.3.0",
+    "whitenoise[brotli]>=6.5.0",
 ]
 requires-python = ">=3.10"
 license = {text = "MIT"}
