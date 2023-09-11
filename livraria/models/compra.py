@@ -25,7 +25,7 @@ class Compra(models.Model):
 
     usuario = models.ForeignKey(Usuario, on_delete=models.PROTECT, related_name="compras")
     status = models.IntegerField(choices=StatusCompra.choices, default=StatusCompra.CARRINHO)
-    data = models.DateTimeField(auto_now_add=True)
+    data = models.DateTimeField(auto_now_add=True, blank=True, null=True)
 
     @property
     def total(self):

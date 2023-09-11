@@ -4,8 +4,7 @@
   "pk": 1,
   "fields": {
     "nome": "Robert C. Martin",
-    "email": "unclebob@altabooks.com.br",
-    "telefone": null
+    "email": "unclebob@altabooks.com.br"
   }
 },
 {
@@ -13,8 +12,7 @@
   "pk": 2,
   "fields": {
     "nome": "J. R. R. Tolkien",
-    "email": "jrrtolkien@oxford.uk",
-    "telefone": null
+    "email": "jrrtolkien@oxford.uk"
   }
 },
 {
@@ -22,8 +20,7 @@
   "pk": 3,
   "fields": {
     "nome": "C. S. Lewis",
-    "email": "cslewis@oxford.uk",
-    "telefone": null
+    "email": "cslewis@oxford.uk"
   }
 },
 {
@@ -31,8 +28,7 @@
   "pk": 4,
   "fields": {
     "nome": "Agatha Chistie",
-    "email": "achristie@lpm.com.br",
-    "telefone": null
+    "email": "achristie@lpm.com.br"
   }
 },
 {
@@ -40,8 +36,7 @@
   "pk": 5,
   "fields": {
     "nome": "Rick Riordan",
-    "email": "rickriordan@gmail.com",
-    "telefone": null
+    "email": "rickriordan@gmail.com"
   }
 },
 {
@@ -49,8 +44,7 @@
   "pk": 6,
   "fields": {
     "nome": "João Guimarães Rosa",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -58,8 +52,7 @@
   "pk": 7,
   "fields": {
     "nome": "George R. R. Martin",
-    "email": "naotemumemail@hotmail.com",
-    "telefone": null
+    "email": "naotemumemail@hotmail.com"
   }
 },
 {
@@ -67,8 +60,7 @@
   "pk": 8,
   "fields": {
     "nome": "Fiódor Dostoiévski",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -76,8 +68,7 @@
   "pk": 9,
   "fields": {
     "nome": "Oscar Wilde",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -85,8 +76,7 @@
   "pk": 10,
   "fields": {
     "nome": "Bell Hooks",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -94,8 +84,7 @@
   "pk": 11,
   "fields": {
     "nome": "Colleen Houck",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -103,8 +92,7 @@
   "pk": 12,
   "fields": {
     "nome": "Philip K. Dick",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -112,8 +100,7 @@
   "pk": 13,
   "fields": {
     "nome": "Marv Wolfman",
-    "email": "marv.wolfman@gmail.com",
-    "telefone": null
+    "email": "marv.wolfman@gmail.com"
   }
 },
 {
@@ -121,8 +108,7 @@
   "pk": 15,
   "fields": {
     "nome": "Geoff Johns",
-    "email": "geoff.johns@gmail.com",
-    "telefone": null
+    "email": "geoff.johns@gmail.com"
   }
 },
 {
@@ -130,8 +116,7 @@
   "pk": 16,
   "fields": {
     "nome": "Richard Donner",
-    "email": "richard.donner@gmail.com",
-    "telefone": null
+    "email": "richard.donner@gmail.com"
   }
 },
 {
@@ -139,8 +124,7 @@
   "pk": 17,
   "fields": {
     "nome": "Adam Kubert",
-    "email": "adam.kubert@gmail.com",
-    "telefone": null
+    "email": "adam.kubert@gmail.com"
   }
 },
 {
@@ -148,8 +132,7 @@
   "pk": 18,
   "fields": {
     "nome": "Brian Azzarello",
-    "email": "brian.azzarello@gmail.com",
-    "telefone": null
+    "email": "brian.azzarello@gmail.com"
   }
 },
 {
@@ -157,8 +140,7 @@
   "pk": 19,
   "fields": {
     "nome": "Jim Lee",
-    "email": "jim.lee@gmail.com",
-    "telefone": null
+    "email": "jim.lee@gmail.com"
   }
 },
 {
@@ -166,8 +148,7 @@
   "pk": 20,
   "fields": {
     "nome": "Mark Millar",
-    "email": "mark.millar@gmail.com",
-    "telefone": null
+    "email": "mark.millar@gmail.com"
   }
 },
 {
@@ -175,8 +156,7 @@
   "pk": 21,
   "fields": {
     "nome": "Dave Johnson",
-    "email": "dave.johnson@gmail.com",
-    "telefone": null
+    "email": "dave.johnson@gmail.com"
   }
 },
 {
@@ -184,8 +164,7 @@
   "pk": 22,
   "fields": {
     "nome": "Kilian Plunkett",
-    "email": "kilian.plunkett@gmail.com",
-    "telefone": null
+    "email": "kilian.plunkett@gmail.com"
   }
 },
 {
@@ -193,8 +172,7 @@
   "pk": 23,
   "fields": {
     "nome": "Cecily von Ziegesar",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -202,8 +180,7 @@
   "pk": 24,
   "fields": {
     "nome": "Jeff Kinney",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -211,8 +188,7 @@
   "pk": 25,
   "fields": {
     "nome": "Tom King",
-    "email": "tom.king@gmail.com",
-    "telefone": null
+    "email": "tom.king@gmail.com"
   }
 },
 {
@@ -220,8 +196,7 @@
   "pk": 26,
   "fields": {
     "nome": "Andy Kubert",
-    "email": "andy.kubert@gmail.com",
-    "telefone": null
+    "email": "andy.kubert@gmail.com"
   }
 },
 {
@@ -229,8 +204,7 @@
   "pk": 27,
   "fields": {
     "nome": "Bernard Cornwell",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -238,8 +212,7 @@
   "pk": 28,
   "fields": {
     "nome": "Sandra Hope",
-    "email": "sandra.hope@gmail.com",
-    "telefone": null
+    "email": "sandra.hope@gmail.com"
   }
 },
 {
@@ -247,8 +220,7 @@
   "pk": 29,
   "fields": {
     "nome": "Augusto Cury",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -256,8 +228,7 @@
   "pk": 30,
   "fields": {
     "nome": "Brad Anderson",
-    "email": "brad.anderson@gmail.com",
-    "telefone": null
+    "email": "brad.anderson@gmail.com"
   }
 },
 {
@@ -265,8 +236,7 @@
   "pk": 31,
   "fields": {
     "nome": "Marcelo Marques Gomes",
-    "email": "marcelogomes@gmail.com",
-    "telefone": null
+    "email": "marcelogomes@gmail.com"
   }
 },
 {
@@ -274,8 +244,7 @@
   "pk": 32,
   "fields": {
     "nome": "Ciranda Cultural",
-    "email": "falecom@cirandacultural.com.br",
-    "telefone": null
+    "email": "falecom@cirandacultural.com.br"
   }
 },
 {
@@ -283,8 +252,7 @@
   "pk": 34,
   "fields": {
     "nome": "Douglas Adams",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -292,8 +260,7 @@
   "pk": 35,
   "fields": {
     "nome": "Paula Pimenta",
-    "email": "paulapimenta@gmail.com",
-    "telefone": null
+    "email": "paulapimenta@gmail.com"
   }
 },
 {
@@ -301,8 +268,7 @@
   "pk": 36,
   "fields": {
     "nome": "Thomas Nield",
-    "email": "thomasnield@gmail.com",
-    "telefone": null
+    "email": "thomasnield@gmail.com"
   }
 },
 {
@@ -310,8 +276,7 @@
   "pk": 37,
   "fields": {
     "nome": "George Orwell",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -319,8 +284,7 @@
   "pk": 38,
   "fields": {
     "nome": "Daniel Kraus",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -328,8 +292,7 @@
   "pk": 39,
   "fields": {
     "nome": "Edgar Allan Poe",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -337,8 +300,7 @@
   "pk": 40,
   "fields": {
     "nome": "Rick J. Scavetta",
-    "email": "rickscavetta@gmail.com",
-    "telefone": null
+    "email": "rickscavetta@gmail.com"
   }
 },
 {
@@ -346,8 +308,7 @@
   "pk": 41,
   "fields": {
     "nome": "Cathy Tanimura",
-    "email": "cathytanimura@gmail.com",
-    "telefone": null
+    "email": "cathytanimura@gmail.com"
   }
 },
 {
@@ -355,8 +316,7 @@
   "pk": 42,
   "fields": {
     "nome": "Veronica Roth",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -364,8 +324,7 @@
   "pk": 43,
   "fields": {
     "nome": "Julio Verne",
-    "email": "julioverne@gmail.com",
-    "telefone": null
+    "email": "julioverne@gmail.com"
   }
 },
 {
@@ -373,8 +332,7 @@
   "pk": 44,
   "fields": {
     "nome": "Edécio Fernando Iepsen",
-    "email": "edeciolepsen@gmail.com",
-    "telefone": null
+    "email": "edeciolepsen@gmail.com"
   }
 },
 {
@@ -382,8 +340,7 @@
   "pk": 45,
   "fields": {
     "nome": "Daniel J. Barrett",
-    "email": "danielbarrett@gmail.com",
-    "telefone": null
+    "email": "danielbarrett@gmail.com"
   }
 },
 {
@@ -391,8 +348,7 @@
   "pk": 46,
   "fields": {
     "nome": "Abel Ferreira",
-    "email": "abelzinhoSEP@gmail.com",
-    "telefone": null
+    "email": "abelzinhoSEP@gmail.com"
   }
 },
 {
@@ -400,8 +356,7 @@
   "pk": 47,
   "fields": {
     "nome": "Franz Kafka",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -409,8 +364,7 @@
   "pk": 48,
   "fields": {
     "nome": "Neal Shusterman",
-    "email": "nealshusterman@gmail.com",
-    "telefone": null
+    "email": "nealshusterman@gmail.com"
   }
 },
 {
@@ -418,8 +372,7 @@
   "pk": 49,
   "fields": {
     "nome": "Charlie Donlea",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -427,8 +380,7 @@
   "pk": 51,
   "fields": {
     "nome": "H. P. Lovecraft",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -436,8 +388,7 @@
   "pk": 52,
   "fields": {
     "nome": "Aldous Leonard Huxley",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -445,8 +396,7 @@
   "pk": 53,
   "fields": {
     "nome": "Phil Knight",
-    "email": "philknight@nike.com",
-    "telefone": null
+    "email": "philknight@nike.com"
   }
 },
 {
@@ -454,8 +404,7 @@
   "pk": 54,
   "fields": {
     "nome": "Howard Schultz",
-    "email": "howard@starbucks.com",
-    "telefone": null
+    "email": "howard@starbucks.com"
   }
 },
 {
@@ -463,8 +412,7 @@
   "pk": 55,
   "fields": {
     "nome": "Antoine de Saint-Exupéry",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -472,8 +420,7 @@
   "pk": 56,
   "fields": {
     "nome": "Marco Aurélio",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -481,8 +428,7 @@
   "pk": 57,
   "fields": {
     "nome": "Hal Elrod",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -490,8 +436,7 @@
   "pk": 58,
   "fields": {
     "nome": "William Golding",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -499,8 +444,7 @@
   "pk": 59,
   "fields": {
     "nome": "Anthony Burgess",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -508,8 +452,7 @@
   "pk": 60,
   "fields": {
     "nome": "Karl Marx",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -517,8 +460,7 @@
   "pk": 61,
   "fields": {
     "nome": "Viola Davis",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -526,8 +468,7 @@
   "pk": 62,
   "fields": {
     "nome": "Michel Foucault",
-    "email": "foucaultamaolula@gmail.com",
-    "telefone": null
+    "email": "foucaultamaolula@gmail.com"
   }
 },
 {
@@ -535,8 +476,7 @@
   "pk": 63,
   "fields": {
     "nome": "Dom Paulo Evaristo Arns",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -544,8 +484,7 @@
   "pk": 64,
   "fields": {
     "nome": "Deepak Chopra",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -553,8 +492,7 @@
   "pk": 65,
   "fields": {
     "nome": "Platão",
-    "email": "plataobomvelho@gmail.com",
-    "telefone": null
+    "email": "plataobomvelho@gmail.com"
   }
 },
 {
@@ -562,8 +500,7 @@
   "pk": 66,
   "fields": {
     "nome": "Stefano Mancuso",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -571,8 +508,7 @@
   "pk": 67,
   "fields": {
     "nome": "Neil Gaiman",
-    "email": "realneil@gmail.com",
-    "telefone": null
+    "email": "realneil@gmail.com"
   }
 },
 {
@@ -580,8 +516,7 @@
   "pk": 68,
   "fields": {
     "nome": "Kahlil Gibran",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -589,8 +524,7 @@
   "pk": 69,
   "fields": {
     "nome": "Emily Dickinson",
-    "email": "emilydickinson@gmail.com",
-    "telefone": null
+    "email": "emilydickinson@gmail.com"
   }
 },
 {
@@ -598,8 +532,7 @@
   "pk": 70,
   "fields": {
     "nome": "Sally Rooney",
-    "email": "sally.rooney@gmail.com",
-    "telefone": null
+    "email": "sally.rooney@gmail.com"
   }
 },
 {
@@ -607,8 +540,7 @@
   "pk": 72,
   "fields": {
     "nome": "Raphael Montes",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -616,8 +548,7 @@
   "pk": 73,
   "fields": {
     "nome": "Josh Goldberg",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -625,8 +556,7 @@
   "pk": 74,
   "fields": {
     "nome": "Clóvis de Barros Filho",
-    "email": "clovis.barros@gmail.com",
-    "telefone": null
+    "email": "clovis.barros@gmail.com"
   }
 },
 {
@@ -634,8 +564,7 @@
   "pk": 75,
   "fields": {
     "nome": "Stephen King",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -643,8 +572,7 @@
   "pk": 76,
   "fields": {
     "nome": "Leigh Bardugo",
-    "email": "leigh.bardugo@gmail.com",
-    "telefone": null
+    "email": "leigh.bardugo@gmail.com"
   }
 },
 {
@@ -652,8 +580,7 @@
   "pk": 77,
   "fields": {
     "nome": "Carina Rissi",
-    "email": "carinarissi@gmail.com",
-    "telefone": null
+    "email": "carinarissi@gmail.com"
   }
 },
 {
@@ -661,8 +588,7 @@
   "pk": 78,
   "fields": {
     "nome": "Dan Brown",
-    "email": "danbrown@gmail.com",
-    "telefone": null
+    "email": "danbrown@gmail.com"
   }
 },
 {
@@ -670,8 +596,7 @@
   "pk": 79,
   "fields": {
     "nome": "Joel Dicker",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -679,8 +604,7 @@
   "pk": 80,
   "fields": {
     "nome": "Casey McQuiston",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -688,8 +612,7 @@
   "pk": 81,
   "fields": {
     "nome": "Machado de Assis",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -697,8 +620,7 @@
   "pk": 82,
   "fields": {
     "nome": "Jane Austen",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -706,8 +628,7 @@
   "pk": 83,
   "fields": {
     "nome": "Euclides da Cunha",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -715,8 +636,7 @@
   "pk": 84,
   "fields": {
     "nome": "Fernando Morais",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -724,8 +644,7 @@
   "pk": 85,
   "fields": {
     "nome": "J. D. Salinger",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -733,8 +652,7 @@
   "pk": 86,
   "fields": {
     "nome": "Editora do Brasil",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -742,8 +660,7 @@
   "pk": 87,
   "fields": {
     "nome": "Ned Vizzini",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -751,8 +668,7 @@
   "pk": 89,
   "fields": {
     "nome": "Ronan Wielewski",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -760,8 +676,7 @@
   "pk": 90,
   "fields": {
     "nome": "Friedrich Engels",
-    "email": "comunistocomgostolula2023@gmail.com",
-    "telefone": null
+    "email": "comunistocomgostolula2023@gmail.com"
   }
 },
 {
@@ -769,8 +684,7 @@
   "pk": 91,
   "fields": {
     "nome": "Lygia Bojunga",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -778,8 +692,7 @@
   "pk": 93,
   "fields": {
     "nome": "Victoria Aveyard",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -787,8 +700,7 @@
   "pk": 94,
   "fields": {
     "nome": "Kiera Cass",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -796,8 +708,7 @@
   "pk": 95,
   "fields": {
     "nome": "Clodoaldo",
-    "email": "clodoaldo@gmail.com",
-    "telefone": null
+    "email": "clodoaldo@gmail.com"
   }
 },
 {
@@ -805,8 +716,7 @@
   "pk": 96,
   "fields": {
     "nome": "Rafael Alvaro",
-    "email": "rafaelalvaro00@gmail.com",
-    "telefone": null
+    "email": "rafaelalvaro00@gmail.com"
   }
 },
 {
@@ -814,8 +724,7 @@
   "pk": 97,
   "fields": {
     "nome": "José de Alencar",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -823,8 +732,7 @@
   "pk": 99,
   "fields": {
     "nome": "Colleen Hoover",
-    "email": "colleenhoover@gmail.com",
-    "telefone": null
+    "email": "colleenhoover@gmail.com"
   }
 },
 {
@@ -832,8 +740,7 @@
   "pk": 100,
   "fields": {
     "nome": "John Green",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -841,8 +748,7 @@
   "pk": 102,
   "fields": {
     "nome": "A.C.H. Smith",
-    "email": "A.C.H.Smith@gmail.com",
-    "telefone": null
+    "email": "A.C.H.Smith@gmail.com"
   }
 },
 {
@@ -850,8 +756,7 @@
   "pk": 103,
   "fields": {
     "nome": "Isabella Santos",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -859,8 +764,7 @@
   "pk": 104,
   "fields": {
     "nome": "Lucas Fernandes",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -868,8 +772,7 @@
   "pk": 106,
   "fields": {
     "nome": "Scott Cawthon",
-    "email": "fazbearhelp@yahoo.com",
-    "telefone": null
+    "email": "fazbearhelp@yahoo.com"
   }
 },
 {
@@ -877,8 +780,7 @@
   "pk": 107,
   "fields": {
     "nome": "Paulo Coelho",
-    "email": "paulo_coelho@gmail.com",
-    "telefone": null
+    "email": "paulo_coelho@gmail.com"
   }
 },
 {
@@ -886,8 +788,7 @@
   "pk": 108,
   "fields": {
     "nome": "Friedrich Nietzsche",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -895,8 +796,7 @@
   "pk": 109,
   "fields": {
     "nome": "Emily Bronte",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -904,8 +804,7 @@
   "pk": 110,
   "fields": {
     "nome": "Sofia Almeida",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -913,8 +812,7 @@
   "pk": 111,
   "fields": {
     "nome": "André Castro",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -922,8 +820,7 @@
   "pk": 112,
   "fields": {
     "nome": "Cormac McCarthy",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -931,8 +828,7 @@
   "pk": 113,
   "fields": {
     "nome": "Carolina Mendes",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -940,8 +836,7 @@
   "pk": 114,
   "fields": {
     "nome": "Gabriel Marques",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -949,8 +844,7 @@
   "pk": 115,
   "fields": {
     "nome": "Rafaela Silva",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -958,8 +852,7 @@
   "pk": 117,
   "fields": {
     "nome": "Thiago Rodrigues",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -967,8 +860,7 @@
   "pk": 118,
   "fields": {
     "nome": "Marina Barbosa",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -976,8 +868,7 @@
   "pk": 119,
   "fields": {
     "nome": "Aaron Mahnke",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -985,8 +876,7 @@
   "pk": 120,
   "fields": {
     "nome": "João Nunes",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -994,8 +884,7 @@
   "pk": 122,
   "fields": {
     "nome": "Marco AuthenticGames",
-    "email": "marco.authentic.games@gmail.com",
-    "telefone": null
+    "email": "marco.authentic.games@gmail.com"
   }
 },
 {
@@ -1003,8 +892,7 @@
   "pk": 123,
   "fields": {
     "nome": "Agustina Bazterrica",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1012,8 +900,7 @@
   "pk": 124,
   "fields": {
     "nome": "David Morrell",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1021,8 +908,7 @@
   "pk": 125,
   "fields": {
     "nome": "Aimee Bender",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1030,8 +916,7 @@
   "pk": 126,
   "fields": {
     "nome": "Carlos Ruiz Zafón",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1039,8 +924,7 @@
   "pk": 127,
   "fields": {
     "nome": "Mark Manson",
-    "email": "mark_manson@gmail.com",
-    "telefone": null
+    "email": "mark_manson@gmail.com"
   }
 },
 {
@@ -1048,8 +932,7 @@
   "pk": 128,
   "fields": {
     "nome": "Garret Rominnes",
-    "email": "garret.rominnes@outlook.com",
-    "telefone": null
+    "email": "garret.rominnes@outlook.com"
   }
 },
 {
@@ -1057,8 +940,7 @@
   "pk": 129,
   "fields": {
     "nome": "Alan Moore",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1066,8 +948,7 @@
   "pk": 130,
   "fields": {
     "nome": "Alcimar Frazão",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1075,8 +956,7 @@
   "pk": 131,
   "fields": {
     "nome": "Intríseca",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1084,8 +964,7 @@
   "pk": 132,
   "fields": {
     "nome": "Aluísio Azevedo",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1093,8 +972,7 @@
   "pk": 133,
   "fields": {
     "nome": "Harlan Ellison",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1102,8 +980,7 @@
   "pk": 135,
   "fields": {
     "nome": "Europa",
-    "email": "europa@gmail.com",
-    "telefone": null
+    "email": "europa@gmail.com"
   }
 },
 {
@@ -1111,8 +988,7 @@
   "pk": 136,
   "fields": {
     "nome": "Jenny Han",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1120,8 +996,7 @@
   "pk": 137,
   "fields": {
     "nome": "Amanda Montell",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1129,8 +1004,7 @@
   "pk": 138,
   "fields": {
     "nome": "Stephenie Meyer",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1138,8 +1012,7 @@
   "pk": 139,
   "fields": {
     "nome": "Oliver Bowden",
-    "email": "oliverbowden@gmail.com",
-    "telefone": null
+    "email": "oliverbowden@gmail.com"
   }
 },
 {
@@ -1147,8 +1020,7 @@
   "pk": 140,
   "fields": {
     "nome": "Khaled Hosseini",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1156,8 +1028,7 @@
   "pk": 141,
   "fields": {
     "nome": "Miyazaki",
-    "email": "miyazaki@yahoo.com",
-    "telefone": null
+    "email": "miyazaki@yahoo.com"
   }
 },
 {
@@ -1165,8 +1036,7 @@
   "pk": 142,
   "fields": {
     "nome": "Zack Zombie",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1174,8 +1044,7 @@
   "pk": 143,
   "fields": {
     "nome": "Anders De La Motte",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1183,8 +1052,7 @@
   "pk": 144,
   "fields": {
     "nome": "Ariel Senosiain",
-    "email": "ariel_senosiain@gmail.com",
-    "telefone": null
+    "email": "ariel_senosiain@gmail.com"
   }
 },
 {
@@ -1192,8 +1060,7 @@
   "pk": 145,
   "fields": {
     "nome": "Andre Barcinski",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1201,8 +1068,7 @@
   "pk": 146,
   "fields": {
     "nome": "Sidney Sheldon",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1210,8 +1076,7 @@
   "pk": 147,
   "fields": {
     "nome": "K. K. Rowling",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1219,8 +1084,7 @@
   "pk": 148,
   "fields": {
     "nome": "J.K. Rowling",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1228,8 +1092,7 @@
   "pk": 149,
   "fields": {
     "nome": "Deus",
-    "email": "Deus.Jesus6@gmail.com",
-    "telefone": null
+    "email": "Deus.Jesus6@gmail.com"
   }
 },
 {
@@ -1237,8 +1100,7 @@
   "pk": 150,
   "fields": {
     "nome": "Richard Brautigan",
-    "email": "richard_brautigan@gmail.com",
-    "telefone": null
+    "email": "richard_brautigan@gmail.com"
   }
 },
 {
@@ -1246,8 +1108,7 @@
   "pk": 151,
   "fields": {
     "nome": "Jack London",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1255,8 +1116,7 @@
   "pk": 152,
   "fields": {
     "nome": "Cida Pedrosa",
-    "email": "Cidaautora@gmail.com",
-    "telefone": null
+    "email": "Cidaautora@gmail.com"
   }
 },
 {
@@ -1264,8 +1124,7 @@
   "pk": 153,
   "fields": {
     "nome": "Richard Byrd",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1273,8 +1132,7 @@
   "pk": 154,
   "fields": {
     "nome": "Miyamoto Musashi",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1282,8 +1140,7 @@
   "pk": 155,
   "fields": {
     "nome": "Chico Otavio",
-    "email": "chicoautor@gmail.com",
-    "telefone": null
+    "email": "chicoautor@gmail.com"
   }
 },
 {
@@ -1291,8 +1148,7 @@
   "pk": 156,
   "fields": {
     "nome": "Chris Reddell",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1300,8 +1156,7 @@
   "pk": 157,
   "fields": {
     "nome": "Michael Finkel",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1309,8 +1164,7 @@
   "pk": 158,
   "fields": {
     "nome": "Hidenori Kusaka",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1318,8 +1172,7 @@
   "pk": 159,
   "fields": {
     "nome": "Laura Sebastian",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1327,8 +1180,7 @@
   "pk": 160,
   "fields": {
     "nome": "Laura Ingalls Wilder",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1336,8 +1188,7 @@
   "pk": 161,
   "fields": {
     "nome": "Marion Zimmer Bradley",
-    "email": "Marion_Bradley@gmail.com",
-    "telefone": null
+    "email": "Marion_Bradley@gmail.com"
   }
 },
 {
@@ -1345,8 +1196,7 @@
   "pk": 163,
   "fields": {
     "nome": "Galera",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1354,8 +1204,7 @@
   "pk": 164,
   "fields": {
     "nome": "J.G.Ballard",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1363,8 +1212,7 @@
   "pk": 165,
   "fields": {
     "nome": "Inio Asano",
-    "email": "inio_asano@gmail.com",
-    "telefone": null
+    "email": "inio_asano@gmail.com"
   }
 },
 {
@@ -1372,8 +1220,7 @@
   "pk": 166,
   "fields": {
     "nome": "Nana Kwame Adjei-Brenyah",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1381,8 +1228,7 @@
   "pk": 167,
   "fields": {
     "nome": "Akira Toriyama",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1390,8 +1236,7 @@
   "pk": 168,
   "fields": {
     "nome": "Roger Scruton",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1399,8 +1244,7 @@
   "pk": 169,
   "fields": {
     "nome": "Eiichiro Oda",
-    "email": "eiichirooda@gmail.com",
-    "telefone": null
+    "email": "eiichirooda@gmail.com"
   }
 },
 {
@@ -1408,8 +1252,7 @@
   "pk": 171,
   "fields": {
     "nome": "Sabrine Cantele",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1417,8 +1260,7 @@
   "pk": 172,
   "fields": {
     "nome": "Otávio Gonçalves de Santana",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1426,8 +1268,7 @@
   "pk": 173,
   "fields": {
     "nome": "Jonathan WIlson",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1435,8 +1276,7 @@
   "pk": 174,
   "fields": {
     "nome": "Sarah Jmaas",
-    "email": "sarahjmaas@gmail.com",
-    "telefone": null
+    "email": "sarahjmaas@gmail.com"
   }
 },
 {
@@ -1444,8 +1284,7 @@
   "pk": 175,
   "fields": {
     "nome": "Charlie Mackesy",
-    "email": "charlie.mackesy@gmail.com",
-    "telefone": null
+    "email": "charlie.mackesy@gmail.com"
   }
 },
 {
@@ -1453,8 +1292,7 @@
   "pk": 177,
   "fields": {
     "nome": "Lindow John",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1462,8 +1300,7 @@
   "pk": 178,
   "fields": {
     "nome": "Ruhan Conceição",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1471,8 +1308,7 @@
   "pk": 179,
   "fields": {
     "nome": "Kel Costa",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1480,8 +1316,7 @@
   "pk": 180,
   "fields": {
     "nome": "Ray Bradbury",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1489,8 +1324,7 @@
   "pk": 181,
   "fields": {
     "nome": "Chris Van Allsburg",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1498,8 +1332,7 @@
   "pk": 182,
   "fields": {
     "nome": "P. J. Deital",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1507,8 +1340,7 @@
   "pk": 183,
   "fields": {
     "nome": "Penelope Douglas",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1516,8 +1348,7 @@
   "pk": 185,
   "fields": {
     "nome": "Mark Z. Danielewski",
-    "email": "MarkZ.Danielewski@gmail.com",
-    "telefone": null
+    "email": "MarkZ.Danielewski@gmail.com"
   }
 },
 {
@@ -1525,8 +1356,7 @@
   "pk": 186,
   "fields": {
     "nome": "Yang Hu",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1534,8 +1364,7 @@
   "pk": 187,
   "fields": {
     "nome": "‎Penguin-Companhia",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1543,8 +1372,7 @@
   "pk": 189,
   "fields": {
     "nome": "Dale Carnegie",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1552,8 +1380,7 @@
   "pk": 190,
   "fields": {
     "nome": "Benjamin Alire Sáenz",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1561,8 +1388,7 @@
   "pk": 191,
   "fields": {
     "nome": "Ingela Korsell",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1570,8 +1396,7 @@
   "pk": 192,
   "fields": {
     "nome": "Henrik Jonsson",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1579,8 +1404,7 @@
   "pk": 193,
   "fields": {
     "nome": "Panini",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1588,8 +1412,7 @@
   "pk": 194,
   "fields": {
     "nome": "Taylor Jenkins Reid",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1597,8 +1420,7 @@
   "pk": 195,
   "fields": {
     "nome": "Ben Shapiro",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1606,8 +1428,7 @@
   "pk": 196,
   "fields": {
     "nome": "Shirley Harrison",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1615,8 +1436,7 @@
   "pk": 197,
   "fields": {
     "nome": "Lyssa Kay Adams",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1624,8 +1444,7 @@
   "pk": 198,
   "fields": {
     "nome": "Miguel de Cervantes",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1633,8 +1452,7 @@
   "pk": 199,
   "fields": {
     "nome": "Albert Camus",
-    "email": "elemorreuantesdainternet@gmail.com",
-    "telefone": null
+    "email": "elemorreuantesdainternet@gmail.com"
   }
 },
 {
@@ -1642,8 +1460,7 @@
   "pk": 200,
   "fields": {
     "nome": "Åsa Larsson",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1651,8 +1468,7 @@
   "pk": 201,
   "fields": {
     "nome": "Larissa Manoela",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1660,8 +1476,7 @@
   "pk": 202,
   "fields": {
     "nome": "Bram Stoker",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1669,8 +1484,7 @@
   "pk": 203,
   "fields": {
     "nome": "Thiago Leite e Carvalho",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1678,8 +1492,7 @@
   "pk": 204,
   "fields": {
     "nome": "Bram Stoker",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1687,8 +1500,7 @@
   "pk": 205,
   "fields": {
     "nome": "André Aciman",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1696,8 +1508,7 @@
   "pk": 206,
   "fields": {
     "nome": "J. Robert Oppenheimer",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1705,8 +1516,7 @@
   "pk": 207,
   "fields": {
     "nome": "Terry Pratchett",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1714,8 +1524,7 @@
   "pk": 208,
   "fields": {
     "nome": "R. Shankar",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1723,8 +1532,7 @@
   "pk": 209,
   "fields": {
     "nome": "Eduardo Guerra",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1732,8 +1540,7 @@
   "pk": 210,
   "fields": {
     "nome": "Alice Oseman",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1741,8 +1548,7 @@
   "pk": 211,
   "fields": {
     "nome": "Paul A. Tipler",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1750,8 +1556,7 @@
   "pk": 212,
   "fields": {
     "nome": "Megan Maxwell",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1759,8 +1564,7 @@
   "pk": 213,
   "fields": {
     "nome": "Wanderley Júnior",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1768,8 +1572,7 @@
   "pk": 214,
   "fields": {
     "nome": "Jeph Loeb",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1777,8 +1580,7 @@
   "pk": 215,
   "fields": {
     "nome": "José Saramago",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1786,8 +1588,7 @@
   "pk": 216,
   "fields": {
     "nome": "Sarah Adams",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1795,8 +1596,7 @@
   "pk": 217,
   "fields": {
     "nome": "Sarah Adams",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1804,8 +1604,7 @@
   "pk": 218,
   "fields": {
     "nome": "Isabel Allende",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1813,8 +1612,7 @@
   "pk": 219,
   "fields": {
     "nome": "Eduardo Felipe Zambom Santana",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1822,8 +1620,7 @@
   "pk": 221,
   "fields": {
     "nome": "Nathan Clark",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1831,8 +1628,7 @@
   "pk": 222,
   "fields": {
     "nome": "Joshua Bloch",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1840,8 +1636,7 @@
   "pk": 223,
   "fields": {
     "nome": "Barry Burd",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1849,8 +1644,7 @@
   "pk": 224,
   "fields": {
     "nome": "Paulo Freire",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1858,8 +1652,7 @@
   "pk": 225,
   "fields": {
     "nome": "Alex Hirsch",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1867,8 +1660,7 @@
   "pk": 226,
   "fields": {
     "nome": "Scott Snyder",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1876,8 +1668,7 @@
   "pk": 227,
   "fields": {
     "nome": "Hanya Yanagihara",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1885,8 +1676,7 @@
   "pk": 228,
   "fields": {
     "nome": "Penelope Douglas",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1894,8 +1684,7 @@
   "pk": 229,
   "fields": {
     "nome": "Paulo Freire",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1903,8 +1692,7 @@
   "pk": 230,
   "fields": {
     "nome": "Scott Brandt",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1912,8 +1700,7 @@
   "pk": 231,
   "fields": {
     "nome": "Daniel Keyes",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1921,8 +1708,7 @@
   "pk": 232,
   "fields": {
     "nome": "Frank Miller",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1930,8 +1716,7 @@
   "pk": 233,
   "fields": {
     "nome": "E. Lockhart",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1939,8 +1724,7 @@
   "pk": 234,
   "fields": {
     "nome": "Stephen Chbosky",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1948,8 +1732,7 @@
   "pk": 237,
   "fields": {
     "nome": "Grant Morrison",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1957,8 +1740,7 @@
   "pk": 238,
   "fields": {
     "nome": "tresinfo dhois",
-    "email": "3info2@gmail.com",
-    "telefone": null
+    "email": "3info2@gmail.com"
   }
 },
 {
@@ -1966,8 +1748,7 @@
   "pk": 239,
   "fields": {
     "nome": "Alan Kardec",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1975,8 +1756,7 @@
   "pk": 240,
   "fields": {
     "nome": "Doug Moench",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1984,8 +1764,7 @@
   "pk": 241,
   "fields": {
     "nome": "Geoff Johns",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -1993,8 +1772,7 @@
   "pk": 242,
   "fields": {
     "nome": "Rachel Renée Russel Lisa Veja",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -2002,8 +1780,7 @@
   "pk": 243,
   "fields": {
     "nome": "Arqueiro",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -2011,8 +1788,7 @@
   "pk": 244,
   "fields": {
     "nome": "Anna Todd",
-    "email": "annatodd@gmail.com",
-    "telefone": null
+    "email": "annatodd@gmail.com"
   }
 },
 {
@@ -2020,8 +1796,7 @@
   "pk": 245,
   "fields": {
     "nome": "Chico Buarque",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -2029,8 +1804,7 @@
   "pk": 246,
   "fields": {
     "nome": "Jenna Evans Welch",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -2038,8 +1812,7 @@
   "pk": 247,
   "fields": {
     "nome": "Monteiro Lobato",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -2047,8 +1820,7 @@
   "pk": 248,
   "fields": {
     "nome": "autentica",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -2056,8 +1828,7 @@
   "pk": 249,
   "fields": {
     "nome": "F. T. Lukens",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -2065,8 +1836,7 @@
   "pk": 250,
   "fields": {
     "nome": "Ziraldo Alves Pinto",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -2074,8 +1844,7 @@
   "pk": 251,
   "fields": {
     "nome": "Monteira Lobato",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -2083,8 +1852,7 @@
   "pk": 252,
   "fields": {
     "nome": "Daniel Wallace",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -2092,8 +1860,7 @@
   "pk": 254,
   "fields": {
     "nome": "Ali Hazelwood",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -2101,8 +1868,7 @@
   "pk": 255,
   "fields": {
     "nome": "Thiago Lolkus Nigro",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -2110,8 +1876,7 @@
   "pk": 256,
   "fields": {
     "nome": "Shel Silverstein",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -2119,8 +1884,7 @@
   "pk": 257,
   "fields": {
     "nome": "Kevin D. Mitnick",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -2128,8 +1892,7 @@
   "pk": 258,
   "fields": {
     "nome": "William L. Simon",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -2137,8 +1900,7 @@
   "pk": 259,
   "fields": {
     "nome": "Pierre Winters",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -2146,8 +1908,7 @@
   "pk": 260,
   "fields": {
     "nome": "Paul Barry",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -2155,8 +1916,7 @@
   "pk": 261,
   "fields": {
     "nome": "Tim Warnes",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -2164,8 +1924,7 @@
   "pk": 262,
   "fields": {
     "nome": "Chetan Giridhar",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -2173,8 +1932,7 @@
   "pk": 263,
   "fields": {
     "nome": "Pete Goodliffe",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -2182,8 +1940,7 @@
   "pk": 264,
   "fields": {
     "nome": "Raymond Buckland",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -2191,8 +1948,7 @@
   "pk": 265,
   "fields": {
     "nome": "Luciano Ramalho",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -2200,8 +1956,7 @@
   "pk": 266,
   "fields": {
     "nome": "Milk Shakespeare",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -2209,8 +1964,7 @@
   "pk": 267,
   "fields": {
     "nome": "Raul WAZLAWICK",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -2218,8 +1972,7 @@
   "pk": 268,
   "fields": {
     "nome": "Miguel Grinberg",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -2227,8 +1980,7 @@
   "pk": 269,
   "fields": {
     "nome": "Max Brallier",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -2236,8 +1988,7 @@
   "pk": 270,
   "fields": {
     "nome": "José Augusto N. G. Manzano",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -2245,8 +1996,7 @@
   "pk": 271,
   "fields": {
     "nome": "Al Sweigart",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -2254,8 +2004,7 @@
   "pk": 272,
   "fields": {
     "nome": "Nilo Ney Coutinho Menezes",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -2263,8 +2012,7 @@
   "pk": 273,
   "fields": {
     "nome": "Fluminense",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -2272,8 +2020,7 @@
   "pk": 274,
   "fields": {
     "nome": "Aurélio Jargas",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -2281,8 +2028,7 @@
   "pk": 275,
   "fields": {
     "nome": "Leandro Tavares Fontes",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -2290,8 +2036,7 @@
   "pk": 276,
   "fields": {
     "nome": "Antony Beevor",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -2299,8 +2044,7 @@
   "pk": 277,
   "fields": {
     "nome": "Osvaldo Santana",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -2308,8 +2052,7 @@
   "pk": 278,
   "fields": {
     "nome": "E. L. James",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -2317,8 +2060,7 @@
   "pk": 279,
   "fields": {
     "nome": "Omar de Souza",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -2326,8 +2068,7 @@
   "pk": 280,
   "fields": {
     "nome": "Eiichiro Oda",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -2335,8 +2076,7 @@
   "pk": 281,
   "fields": {
     "nome": "Nakaba Suzuki",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -2344,8 +2084,7 @@
   "pk": 282,
   "fields": {
     "nome": "Maurice Leblanc",
-    "email": null,
-    "telefone": null
+    "email": null
   }
 },
 {
@@ -2794,13 +2533,6 @@
   "pk": 69,
   "fields": {
     "descricao": "manga"
-  }
-},
-{
-  "model": "livraria.categoria",
-  "pk": 70,
-  "fields": {
-    "descricao": "Mangá"
   }
 },
 {
@@ -4287,9 +4019,9 @@
     "editora": 11,
     "capa": null,
     "autores": [
+      15,
       16,
-      17,
-      15
+      17
     ]
   }
 },
@@ -9439,6 +9171,22 @@
 },
 {
   "model": "livraria.livro",
+  "pk": 362,
+  "fields": {
+    "titulo": "O Alquimista",
+    "isbn": "‎978-8408206194",
+    "quantidade": 15,
+    "preco": "15.10",
+    "categoria": 31,
+    "editora": 28,
+    "capa": 1,
+    "autores": [
+      107
+    ]
+  }
+},
+{
+  "model": "livraria.livro",
   "pk": 363,
   "fields": {
     "titulo": "A Filosofia e o Espelho da Natureza",
@@ -9673,8 +9421,8 @@
     "editora": 9,
     "capa": null,
     "autores": [
-      197,
-      183
+      183,
+      197
     ]
   }
 },
@@ -9771,6 +9519,22 @@
     "capa": null,
     "autores": [
       194
+    ]
+  }
+},
+{
+  "model": "livraria.livro",
+  "pk": 387,
+  "fields": {
+    "titulo": "House of Leaves",
+    "isbn": "‎978-0375703768",
+    "quantidade": 200,
+    "preco": "45.00",
+    "categoria": 57,
+    "editora": 121,
+    "capa": 2,
+    "autores": [
+      185
     ]
   }
 },
@@ -9914,9 +9678,9 @@
     "editora": 123,
     "capa": null,
     "autores": [
+      191,
       192,
-      200,
-      191
+      200
     ]
   }
 },
@@ -9965,6 +9729,22 @@
     "capa": null,
     "autores": [
       203
+    ]
+  }
+},
+{
+  "model": "livraria.livro",
+  "pk": 400,
+  "fields": {
+    "titulo": "O Mito de Sísifo",
+    "isbn": "8501111643",
+    "quantidade": 18,
+    "preco": "15.00",
+    "categoria": 27,
+    "editora": 2,
+    "capa": 3,
+    "autores": [
+      199
     ]
   }
 },
@@ -10253,9 +10033,9 @@
     "editora": 7,
     "capa": null,
     "autores": [
+      212,
       216,
-      217,
-      212
+      217
     ]
   }
 },
@@ -11961,8 +11741,7 @@
   "pk": 1,
   "fields": {
     "usuario": 1,
-    "status": 1,
-    "data": "2023-08-31T19:27:39.079Z"
+    "status": 1
   }
 },
 {
@@ -11970,8 +11749,7 @@
   "pk": 2,
   "fields": {
     "usuario": 2,
-    "status": 2,
-    "data": "2023-08-31T19:27:39.079Z"
+    "status": 2
   }
 },
 {
@@ -11979,8 +11757,7 @@
   "pk": 3,
   "fields": {
     "usuario": 1,
-    "status": 1,
-    "data": "2023-08-31T19:27:39.079Z"
+    "status": 1
   }
 },
 {
@@ -11988,8 +11765,7 @@
   "pk": 4,
   "fields": {
     "usuario": 1,
-    "status": 1,
-    "data": "2023-08-31T19:27:39.079Z"
+    "status": 1
   }
 },
 {
@@ -11997,8 +11773,7 @@
   "pk": 5,
   "fields": {
     "usuario": 3,
-    "status": 1,
-    "data": "2023-08-31T19:27:39.079Z"
+    "status": 1
   }
 },
 {
@@ -12006,8 +11781,7 @@
   "pk": 6,
   "fields": {
     "usuario": 1,
-    "status": 1,
-    "data": "2023-08-31T19:27:39.079Z"
+    "status": 1
   }
 },
 {
@@ -12015,8 +11789,7 @@
   "pk": 7,
   "fields": {
     "usuario": 3,
-    "status": 1,
-    "data": "2023-08-31T19:27:39.079Z"
+    "status": 1
   }
 },
 {
@@ -12025,8 +11798,7 @@
   "fields": {
     "compra": 2,
     "livro": 278,
-    "quantidade": 1,
-    "preco_item": "1.00"
+    "quantidade": 1
   }
 },
 {
@@ -12035,8 +11807,7 @@
   "fields": {
     "compra": 2,
     "livro": 52,
-    "quantidade": 23,
-    "preco_item": "1.00"
+    "quantidade": 23
   }
 },
 {
@@ -12045,8 +11816,7 @@
   "fields": {
     "compra": 1,
     "livro": 52,
-    "quantidade": 1,
-    "preco_item": "1.00"
+    "quantidade": 1
   }
 },
 {
@@ -12055,8 +11825,7 @@
   "fields": {
     "compra": 1,
     "livro": 71,
-    "quantidade": 1,
-    "preco_item": "1.00"
+    "quantidade": 1
   }
 },
 {
@@ -12065,8 +11834,7 @@
   "fields": {
     "compra": 4,
     "livro": 1,
-    "quantidade": 1,
-    "preco_item": "1.00"
+    "quantidade": 1
   }
 },
 {
@@ -12075,8 +11843,7 @@
   "fields": {
     "compra": 5,
     "livro": 3,
-    "quantidade": 3,
-    "preco_item": "1.00"
+    "quantidade": 3
   }
 },
 {
@@ -12085,8 +11852,7 @@
   "fields": {
     "compra": 6,
     "livro": 1,
-    "quantidade": 7,
-    "preco_item": "1.00"
+    "quantidade": 7
   }
 },
 {
@@ -12095,8 +11861,7 @@
   "fields": {
     "compra": 7,
     "livro": 99,
-    "quantidade": 99,
-    "preco_item": "1.00"
+    "quantidade": 99
   }
 },
 {
@@ -12104,7 +11869,7 @@
   "pk": 1,
   "fields": {
     "password": "pbkdf2_sha256$600000$VzcspEGWSGfqHJQmRKGqxt$57VcJBcfoZI1s2Eh+KpSP9/3KH1D2YaNYFf/cKPJqHM=",
-    "last_login": "2023-09-04T16:40:22.293Z",
+    "last_login": "2023-08-15T19:57:15.979Z",
     "is_superuser": true,
     "first_name": "Marco André",
     "last_name": "Mendes",
@@ -12157,6 +11922,61 @@
     "data_nascimento": null,
     "groups": [],
     "user_permissions": []
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 1,
+  "fields": {
+    "attachment_key": "bd18537e-6c56-4880-9f89-b74aaca65cd0",
+    "public_id": "6c290112-10d6-429c-a438-657cbd8c161a",
+    "file": "images/6c290112-10d6-429c-a438-657cbd8c161a.jpg",
+    "description": "o alquimista capa",
+    "uploaded_on": "2023-08-08T18:49:33.960Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 2,
+  "fields": {
+    "attachment_key": "879c6664-7174-4fb8-9a55-f76de61b6cd5",
+    "public_id": "11a9f999-565d-4d72-8519-35055a3fad66",
+    "file": "images/11a9f999-565d-4d72-8519-35055a3fad66.jpg",
+    "description": "house of leaves capa",
+    "uploaded_on": "2023-08-08T18:56:43.129Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 3,
+  "fields": {
+    "attachment_key": "21a437cb-cb30-4506-b50e-628ea4da8da7",
+    "public_id": "c0c1cdd5-976a-4075-8f77-e5c75e2b5adc",
+    "file": "images/c0c1cdd5-976a-4075-8f77-e5c75e2b5adc.jpg",
+    "description": "o mito de sisifo capa",
+    "uploaded_on": "2023-08-08T19:01:03.661Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 4,
+  "fields": {
+    "attachment_key": "1996e632-f7b6-4358-b9b7-3838de02a574",
+    "public_id": "9f052d2a-ed44-4ab6-82be-15f49d10a53d",
+    "file": "images/9f052d2a-ed44-4ab6-82be-15f49d10a53d.jpg",
+    "description": "capa",
+    "uploaded_on": "2023-08-08T19:10:19.827Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 5,
+  "fields": {
+    "attachment_key": "0557af25-41af-49f9-8ac5-48e040d22c5c",
+    "public_id": "dfe5ec29-bf8d-44a9-a070-84324941a12c",
+    "file": "images/dfe5ec29-bf8d-44a9-a070-84324941a12c.png",
+    "description": "3info2 capa",
+    "uploaded_on": "2023-08-08T19:23:01.356Z"
   }
 }
 ]
