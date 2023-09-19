@@ -103,7 +103,6 @@ USE_I18N = True
 USE_TZ = True
 
 STATIC_URL = "/static/"
-MEDIA_URL = '/media/' 
 MEDIA_ENDPOINT = "/media/"
 MEDIA_ROOT = os.path.join(BASE_DIR, "media/")
 FILE_UPLOAD_PERMISSIONS = 0o640
@@ -113,6 +112,7 @@ if MODE in ["PRODUCTION", "MIGRATE"]:
     DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
     STATIC_ROOT = os.path.join(BASE_DIR, "static")
     STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+    MEDIA_URL = '/media/' 
 else:    
     from subprocess import run, PIPE
     COMMAND = "nmcli device show | grep IP4.ADDRESS | head -1 | awk '{print $2}' | rev | cut -c 4- | rev"
@@ -149,6 +149,5 @@ SIMPLE_JWT = {
     "ACCESS_TOKEN_LIFETIME": timedelta(minutes=180),
     "REFRESH_TOKEN_LIFETIME": timedelta(days=1),
 }
-
 
 print(MODE, DATABASES, MEDIA_URL)
