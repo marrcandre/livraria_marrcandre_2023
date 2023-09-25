@@ -36,6 +36,7 @@ dependencies = [
     "django-filter>=23.2",
     "django-cloudinary-storage>=0.3.0",
     "whitenoise[brotli]>=6.5.0",
+    "netifaces>=0.11.0",
 ]
 requires-python = ">=3.10"
 license = {text = "MIT"}
@@ -44,6 +45,7 @@ license = {text = "MIT"}
 line-length = 120
 
 [tool.pdm.scripts]
+pre_dev = "python ./scripts/set_my_ip.py"
 dev = "python manage.py runserver 0.0.0.0:19003"
 runserver = "python manage.py runserver"
 createsuperuser = "python manage.py createsuperuser"

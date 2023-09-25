@@ -6,7 +6,7 @@ groups = ["default", "dev"]
 cross_platform = true
 static_urls = false
 lock_version = "4.3"
-content_hash = "sha256:972e4622996f8dbc6c68f08a1efa361279cdeea63ad56a69b68b875d52b4edba"
+content_hash = "sha256:ef6bba7f5871bf262021467d7e8d6c01b7dcee7801b21e28ee28f8f5aa8d4e75"
 
 [[package]]
 name = "asgiref"
@@ -404,6 +404,14 @@ summary = "Type system extensions for programs checked with the mypy type checke
 files = [
     {file = "mypy_extensions-1.0.0-py3-none-any.whl", hash = "sha256:4392f6c0eb8a5668a69e23d168ffa70f0be9ccfd32b5cc2d26a34ae5b844552d"},
     {file = "mypy_extensions-1.0.0.tar.gz", hash = "sha256:75dbf8955dc00442a438fc4d0666508a9a97b6bd41aa2f0ffe9d2f2725af0782"},
+]
+
+[[package]]
+name = "netifaces"
+version = "0.11.0"
+summary = "Portable network interface information."
+files = [
+    {file = "netifaces-0.11.0.tar.gz", hash = "sha256:043a79146eb2907edf439899f262b3dfe41717d34124298ed281139a8b93ca32"},
 ]
 
 [[package]]
