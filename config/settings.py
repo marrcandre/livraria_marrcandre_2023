@@ -4,9 +4,10 @@ from dotenv import load_dotenv
 from pathlib import Path
 
 load_dotenv()
-MODE = os.getenv("MODE")
-SECRET_KEY = os.getenv("SECRET_KEY")
-DEBUG = os.getenv("DEBUG", "False")
+
+MODE = os.getenv("MODE", "DEVELOPMENT")
+SECRET_KEY = os.getenv("SECRET_KEY", "django-insecure-4@5j^6^0^4)0%_7n4&-!-#(m*2x^8!$3+^)w5&z!5^_5p!j5")
+DEBUG = os.getenv("DEBUG", "True")
 ALLOWED_HOSTS = ["*"]
 CSRF_TRUSTED_ORIGINS = ["http://localhost:3000", "http://localhost:8000", "https://*.fl0.io/"]
 BASE_DIR = Path(__file__).resolve().parent.parent
