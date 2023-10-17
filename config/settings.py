@@ -141,4 +141,4 @@ SIMPLE_JWT = {
     "REFRESH_TOKEN_LIFETIME": timedelta(days=1),
 }
 
-print(MODE, DATABASES, MEDIA_URL)
+print(MODE, MEDIA_URL, DATABASES)
