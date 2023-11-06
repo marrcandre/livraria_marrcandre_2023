@@ -41,20 +41,32 @@ dependencies = [
 requires-python = ">=3.10"
 license = {text = "MIT"}
 
-[tool.black]
-line-length = 120
-
 [tool.pdm.scripts]
 pre_dev = "python ./scripts/set_my_ip.py"
 dev = "python manage.py runserver 0.0.0.0:19003"
-runserver = "python manage.py runserver"
 createsuperuser = "python manage.py createsuperuser"
+pre_migrate = "python manage.py makemigrations"
 migrate = "python manage.py migrate"
-makemigrations = "python manage.py makemigrations"
+post_migrate = "python manage.py graph_models -g -o livraria.png livraria usuario"
 shell = "python manage.py shell"
+shellp= "python manage.py shell_plus"
 test = "python manage.py test"
-startapp = "python manage.py startapp {args}"
-loaddata = "python manage.py loaddata {args}"
-dumpdata = "python manage.py dumpdata {args}"
-mi = "python manage.py migrate"
-post_mi = "python manage.py graph_models -g -o livraria.png livraria"
+loaddata = "python manage.py loaddata core.json"
+dumpdata = "python manage.py dumpdata --indent 2"
+
+[tool.black]
+line-length = 120
+include = '\.piy?$'
+exclude = '''
+/(
+  \.git
+ | \.hg
+ | \.mypy_cache
+ | \.tox
+ | \.venv
+ | _build
+ | buck-out
+ | build
+ )/
+'''
+
