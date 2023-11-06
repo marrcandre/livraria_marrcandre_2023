@@ -6,11 +6,17 @@ from .managers import CustomUserManager
 
 
 class Usuario(AbstractUser):
+    class Tipos(models.TextChoices):
+        CLIENTE = "CLIENTE", "Cliente"
+        VENDEDOR = "VENDEDOR", "Vendedor"
+        GERENTE = "GERENTE", "Gerente"
+
     username = None
     email = models.EmailField(_("e-mail address"), unique=True)
     cpf = models.CharField(_("CPF"), max_length=11, blank=True, null=True)
     telefone = models.CharField(_("Phone"), max_length=11, blank=True, null=True)
     data_nascimento = models.DateField(_("Birth Date"), auto_now=False, auto_now_add=False, blank=True, null=True)
+    tipo = models.CharField(_("Type"), max_length=50, choices=Tipos.choices, default=Tipos.CLIENTE)
 
     USERNAME_FIELD = "email"
     REQUIRED_FIELDS = []

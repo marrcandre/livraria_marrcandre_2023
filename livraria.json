@@ -1,3 +1,4 @@
+DEVELOPMENT http://172.17.0.1:19003/media/ {'default': {'ENGINE': 'django.db.backends.sqlite3', 'NAME': PosixPath('/home/dados/projetos/drf/drf_projetos/livraria_render/db.sqlite3')}}
 [
 {
   "model": "livraria.autor",
@@ -2797,13 +2798,6 @@
   }
 },
 {
-  "model": "livraria.categoria",
-  "pk": 70,
-  "fields": {
-    "descricao": "Mangá"
-  }
-},
-{
   "model": "livraria.editora",
   "pk": 1,
   "fields": {
@@ -4218,7 +4212,7 @@
     "titulo": "Percy Jackson e o Último Olimpiano",
     "isbn": "978-8580575439",
     "quantidade": 15,
-    "preco": "30.00",
+    "preco": "25.00",
     "categoria": 6,
     "editora": 7,
     "capa": null,
@@ -4287,9 +4281,9 @@
     "editora": 11,
     "capa": null,
     "autores": [
+      15,
       16,
-      17,
-      15
+      17
     ]
   }
 },
@@ -9673,8 +9667,8 @@
     "editora": 9,
     "capa": null,
     "autores": [
-      197,
-      183
+      183,
+      197
     ]
   }
 },
@@ -9914,9 +9908,9 @@
     "editora": 123,
     "capa": null,
     "autores": [
+      191,
       192,
-      200,
-      191
+      200
     ]
   }
 },
@@ -10253,9 +10247,9 @@
     "editora": 7,
     "capa": null,
     "autores": [
+      212,
       216,
-      217,
-      212
+      217
     ]
   }
 },
@@ -11962,7 +11956,7 @@
   "fields": {
     "usuario": 1,
     "status": 1,
-    "data": "2023-08-31T19:27:39.079Z"
+    "data": "2023-08-31T18:59:25.712Z"
   }
 },
 {
@@ -11971,7 +11965,7 @@
   "fields": {
     "usuario": 2,
     "status": 2,
-    "data": "2023-08-31T19:27:39.079Z"
+    "data": "2023-08-31T18:59:25.712Z"
   }
 },
 {
@@ -11980,7 +11974,7 @@
   "fields": {
     "usuario": 1,
     "status": 1,
-    "data": "2023-08-31T19:27:39.079Z"
+    "data": "2023-08-31T18:59:25.712Z"
   }
 },
 {
@@ -11989,7 +11983,7 @@
   "fields": {
     "usuario": 1,
     "status": 1,
-    "data": "2023-08-31T19:27:39.079Z"
+    "data": "2023-08-31T18:59:25.712Z"
   }
 },
 {
@@ -11998,25 +11992,61 @@
   "fields": {
     "usuario": 3,
     "status": 1,
-    "data": "2023-08-31T19:27:39.079Z"
+    "data": "2023-08-31T18:59:25.712Z"
   }
 },
 {
   "model": "livraria.compra",
-  "pk": 6,
-  "fields": {
-    "usuario": 1,
-    "status": 1,
-    "data": "2023-08-31T19:27:39.079Z"
-  }
-},
-{
-  "model": "livraria.compra",
-  "pk": 7,
+  "pk": 13,
   "fields": {
     "usuario": 3,
     "status": 1,
-    "data": "2023-08-31T19:27:39.079Z"
+    "data": "2023-08-31T18:59:25.712Z"
+  }
+},
+{
+  "model": "livraria.compra",
+  "pk": 14,
+  "fields": {
+    "usuario": 3,
+    "status": 1,
+    "data": "2023-08-31T18:59:25.712Z"
+  }
+},
+{
+  "model": "livraria.compra",
+  "pk": 15,
+  "fields": {
+    "usuario": 3,
+    "status": 1,
+    "data": "2023-08-31T18:59:25.712Z"
+  }
+},
+{
+  "model": "livraria.compra",
+  "pk": 16,
+  "fields": {
+    "usuario": 3,
+    "status": 1,
+    "data": "2023-08-31T18:59:25.712Z"
+  }
+},
+{
+  "model": "livraria.compra",
+  "pk": 17,
+  "fields": {
+    "usuario": 3,
+    "status": 1,
+    "data": "2023-08-31T18:59:25.712Z"
+  }
+},
+{
+  "model": "livraria.compra",
+  "pk": 18,
+  "fields": {
+    "usuario": 2,
+    "status": 2,
+    "data": "2023-08-31T19:03:36.194Z"
   }
 },
 {
@@ -12081,21 +12111,21 @@
 },
 {
   "model": "livraria.itenscompra",
-  "pk": 10,
+  "pk": 17,
   "fields": {
-    "compra": 6,
-    "livro": 1,
-    "quantidade": 7,
-    "preco_item": "1.00"
+    "compra": 17,
+    "livro": 20,
+    "quantidade": 2,
+    "preco_item": "20.00"
   }
 },
 {
   "model": "livraria.itenscompra",
-  "pk": 11,
+  "pk": 18,
   "fields": {
-    "compra": 7,
-    "livro": 99,
-    "quantidade": 99,
+    "compra": 18,
+    "livro": 52,
+    "quantidade": 1,
     "preco_item": "1.00"
   }
 },
@@ -12104,7 +12134,7 @@
   "pk": 1,
   "fields": {
     "password": "pbkdf2_sha256$600000$VzcspEGWSGfqHJQmRKGqxt$57VcJBcfoZI1s2Eh+KpSP9/3KH1D2YaNYFf/cKPJqHM=",
-    "last_login": "2023-09-04T16:40:22.293Z",
+    "last_login": "2023-10-27T14:52:31.057Z",
     "is_superuser": true,
     "first_name": "Marco André",
     "last_name": "Mendes",
@@ -12115,6 +12145,7 @@
     "cpf": "936.827.869",
     "telefone": "47991675523",
     "data_nascimento": "1973-10-29",
+    "tipo": "GERENTE",
     "groups": [],
     "user_permissions": []
   }
@@ -12135,7 +12166,10 @@
     "cpf": null,
     "telefone": null,
     "data_nascimento": null,
-    "groups": [],
+    "tipo": "CLIENTE",
+    "groups": [
+      1
+    ],
     "user_permissions": []
   }
 },
@@ -12148,14 +12182,17 @@
     "is_superuser": false,
     "first_name": "Comprador",
     "last_name": "Buyer",
-    "is_staff": true,
+    "is_staff": false,
     "is_active": true,
     "date_joined": "2023-08-15T18:00:06.093Z",
     "email": "comprador@a.com",
     "cpf": null,
     "telefone": null,
     "data_nascimento": null,
-    "groups": [],
+    "tipo": "VENDEDOR",
+    "groups": [
+      2
+    ],
     "user_permissions": []
   }
 }
