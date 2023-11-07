@@ -7,7 +7,7 @@ import os
 # Função para obter o IP do computador
 def get_current_ip():
     interfaces = ni.interfaces()
-    
+
     for interface in interfaces:
         with contextlib.suppress(ValueError, KeyError):
             addresses = ni.ifaddresses(interface)
@@ -28,7 +28,7 @@ def update_env_file(ip):
         else:
             with open('.env', 'r') as file:
                 lines = file.readlines()
-            
+
             with open('.env', 'w') as file:
                 for line in lines:
                     if line.startswith('MY_IP='):

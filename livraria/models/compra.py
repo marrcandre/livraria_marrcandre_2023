@@ -23,8 +23,35 @@ class Compra(models.Model):
             "Entregue",
         )
 
+    class TipoPagamento(models.IntegerChoices):
+        CARTAO_CREDITO = (
+            1,
+            "Cartão de crédito",
+        )
+        CARTAO_DEBITO = (
+            2,
+            "Cartão de débito",
+        )
+        PIX = (
+            3,
+            "Pix",
+        )
+        BOLETO = (
+            4,
+            "Boleto",
+        )
+        TRANSFERENCIA_BANCARIA = (
+            5,
+            "Transferência bancária",
+        )
+        OUTROS = (
+            6,
+            "Outros",
+        )
+
     usuario = models.ForeignKey(Usuario, on_delete=models.PROTECT, related_name="compras")
     status = models.IntegerField(choices=StatusCompra.choices, default=StatusCompra.CARRINHO)
+    tipo_pagamento = models.IntegerField(choices=TipoPagamento.choices, default=TipoPagamento.CARTAO_CREDITO)
     data = models.DateTimeField(auto_now_add=True, blank=True, null=True)
 
     @property
