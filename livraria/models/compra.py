@@ -6,48 +6,19 @@ from usuario.models import Usuario
 
 class Compra(models.Model):
     class StatusCompra(models.IntegerChoices):
-        CARRINHO = (
-            1,
-            "Carrinho",
-        )
-        REALIZADO = (
-            2,
-            "Realizado",
-        )
-        PAGO = (
-            3,
-            "Pago",
-        )
-        ENTREGUE = (
-            4,
-            "Entregue",
-        )
+        CARRINHO = 1, "Carrinho"
+        REALIZADO = 2, "Realizado"
+        PAGO = 3, "Pago"
+        ENTREGUE = 4, "Entregue"
 
     class TipoPagamento(models.IntegerChoices):
-        CARTAO_CREDITO = (
-            1,
-            "Cartão de crédito",
-        )
-        CARTAO_DEBITO = (
-            2,
-            "Cartão de débito",
-        )
-        PIX = (
-            3,
-            "Pix",
-        )
-        BOLETO = (
-            4,
-            "Boleto",
-        )
-        TRANSFERENCIA_BANCARIA = (
-            5,
-            "Transferência bancária",
-        )
-        OUTROS = (
-            6,
-            "Outros",
-        )
+        CARTAO_CREDITO = 1, "Cartão de Crédito"
+        CARTAO_DEBITO = 2, "Cartão de Débito"
+        PIX = 3, "PIX"
+        BOLETO = 4, "Boleto"
+        TRANSFERENCIA_BANCARIA = 5, "Transferência Bancária"
+        DINHEIRO = 6, "Dinheiro"
+        OUTRO = 7, "Outro"
 
     usuario = models.ForeignKey(Usuario, on_delete=models.PROTECT, related_name="compras")
     status = models.IntegerField(choices=StatusCompra.choices, default=StatusCompra.CARRINHO)
