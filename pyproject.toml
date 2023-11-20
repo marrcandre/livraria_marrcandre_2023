@@ -51,7 +51,7 @@ post_migrate = "python manage.py graph_models -g -o livraria.png livraria usuari
 shell = "python manage.py shell"
 shellp= "python manage.py shell_plus"
 test = "python manage.py test"
-loaddata = "python manage.py loaddata core.json"
+loaddata = "python manage.py loaddata livraria.json"
 dumpdata = "python manage.py dumpdata --indent 2"
 
 [tool.black]

@@ -1,5 +1,946 @@
 [
 {
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2023-11-14T19:53:58.159Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "gerente@a.com",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2023-11-14T19:54:23.496Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "gerente@a.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"User Type\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2023-11-14T19:57:01.804Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "cliente@a.com",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2023-11-14T19:57:22.664Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "cliente@a.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2023-11-20T11:21:37.140Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "cliente2@a.com",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2023-11-20T11:21:52.886Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "cliente2@a.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"First name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2023-11-20T11:24:23.758Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "a@a.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2023-11-20T11:27:04.187Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "cliente@a.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2023-11-20T11:27:23.955Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "cliente@a.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"First name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2023-11-20T11:32:59.477Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "1",
+    "object_repr": "clientes",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2023-11-20T11:35:30.907Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "1",
+    "object_repr": "clientes",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2023-11-20T11:35:51.011Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "cliente@a.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2023-11-20T11:48:46.069Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Compra 1 - cliente@a.com",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"itens compra\", \"object\": \"ItensCompra object (2)\"}}, {\"added\": {\"name\": \"itens compra\", \"object\": \"ItensCompra object (3)\"}}, {\"added\": {\"name\": \"itens compra\", \"object\": \"ItensCompra object (4)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2023-11-20T12:26:49.596Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "Compra 3 - cliente2@a.com",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"itens compra\", \"object\": \"ItensCompra object (9)\"}}, {\"added\": {\"name\": \"itens compra\", \"object\": \"ItensCompra object (10)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2023-11-20T13:37:28.164Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "1",
+    "object_repr": "clientes",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2023-11-20T13:40:39.582Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "cliente2@a.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 4,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 4,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 4,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 4,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 5,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 5,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 5,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 5,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add document",
+    "content_type": 6,
+    "codename": "add_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change document",
+    "content_type": 6,
+    "codename": "change_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete document",
+    "content_type": 6,
+    "codename": "delete_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view document",
+    "content_type": 6,
+    "codename": "view_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add image",
+    "content_type": 7,
+    "codename": "add_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change image",
+    "content_type": 7,
+    "codename": "change_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete image",
+    "content_type": 7,
+    "codename": "delete_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view image",
+    "content_type": 7,
+    "codename": "view_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add Usuário",
+    "content_type": 8,
+    "codename": "add_usuario"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change Usuário",
+    "content_type": 8,
+    "codename": "change_usuario"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete Usuário",
+    "content_type": 8,
+    "codename": "delete_usuario"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view Usuário",
+    "content_type": 8,
+    "codename": "view_usuario"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add autor",
+    "content_type": 9,
+    "codename": "add_autor"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change autor",
+    "content_type": 9,
+    "codename": "change_autor"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete autor",
+    "content_type": 9,
+    "codename": "delete_autor"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view autor",
+    "content_type": 9,
+    "codename": "view_autor"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add categoria",
+    "content_type": 10,
+    "codename": "add_categoria"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change categoria",
+    "content_type": 10,
+    "codename": "change_categoria"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete categoria",
+    "content_type": 10,
+    "codename": "delete_categoria"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view categoria",
+    "content_type": 10,
+    "codename": "view_categoria"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add compra",
+    "content_type": 11,
+    "codename": "add_compra"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change compra",
+    "content_type": 11,
+    "codename": "change_compra"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete compra",
+    "content_type": 11,
+    "codename": "delete_compra"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view compra",
+    "content_type": 11,
+    "codename": "view_compra"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add editora",
+    "content_type": 12,
+    "codename": "add_editora"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change editora",
+    "content_type": 12,
+    "codename": "change_editora"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete editora",
+    "content_type": 12,
+    "codename": "delete_editora"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view editora",
+    "content_type": 12,
+    "codename": "view_editora"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add livro",
+    "content_type": 13,
+    "codename": "add_livro"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change livro",
+    "content_type": 13,
+    "codename": "change_livro"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete livro",
+    "content_type": 13,
+    "codename": "delete_livro"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view livro",
+    "content_type": 13,
+    "codename": "view_livro"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can add itens compra",
+    "content_type": 14,
+    "codename": "add_itenscompra"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can change itens compra",
+    "content_type": 14,
+    "codename": "change_itenscompra"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can delete itens compra",
+    "content_type": 14,
+    "codename": "delete_itenscompra"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can view itens compra",
+    "content_type": 14,
+    "codename": "view_itenscompra"
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 1,
+  "fields": {
+    "name": "clientes",
+    "permissions": [
+      36,
+      40,
+      41,
+      42,
+      43,
+      44,
+      48,
+      53,
+      54,
+      55,
+      56,
+      52
+    ]
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "uploader",
+    "model": "document"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "uploader",
+    "model": "image"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "usuario",
+    "model": "usuario"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "livraria",
+    "model": "autor"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "livraria",
+    "model": "categoria"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "livraria",
+    "model": "compra"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "livraria",
+    "model": "editora"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "livraria",
+    "model": "livro"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 14,
+  "fields": {
+    "app_label": "livraria",
+    "model": "itenscompra"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "0q8rsbsv4hmg39mnweo370rld7pyu29e",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAURP-FtSFAebp07zcQuPcqVQNJaVfGf5cmXWhmN-fMvFlM21ri1mmJM7Izk-z02-UET6o7wEeq98ah1XWZM98VftDOrw3pdTncv4OSehlrh04op0CDMNrpNGIcSEg-EGYLTttJej1JpAxgJlA23OwQMgUE4dnnC9MUN_8:1r52Qi:Hw4jk92PkpB0xjtrzriXVkvqTCHAGDejzm9kDFUxcoo",
+    "expire_date": "2023-12-04T11:27:04.199Z"
+  }
+},
+{
+  "model": "usuario.usuario",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$v0cwZncLkav5MflSYiBuAD$LGZUNOkoJcudKMs6lzbAECrjM4ONKI8spiUPjEzV7F8=",
+    "last_login": "2023-11-14T19:29:06.347Z",
+    "is_superuser": true,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-11-14T18:54:35.600Z",
+    "email": "a@a.com",
+    "cpf": null,
+    "telefone": null,
+    "data_nascimento": null,
+    "tipo_usuario": 1,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "usuario.usuario",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$drwNxfnngV7v3NhiQMBhyi$EiEs0LQXzLoiZx759cpTZvq8qCvnXa/UV3MxgwQ1HtY=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Gerente",
+    "last_name": "Manager",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-11-14T19:53:57.534Z",
+    "email": "gerente@a.com",
+    "cpf": null,
+    "telefone": null,
+    "data_nascimento": null,
+    "tipo_usuario": 3,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "usuario.usuario",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$6jwJmDrViQLpAdFzFY2b30$GgErw+obYdFirZjpND4qUL6KuFW0fEKlch9jHg573Os=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Cliente Um",
+    "last_name": "Customer",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-11-14T19:57:01.193Z",
+    "email": "cliente@a.com",
+    "cpf": null,
+    "telefone": null,
+    "data_nascimento": null,
+    "tipo_usuario": 1,
+    "groups": [
+      1
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "usuario.usuario",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$ZqLyc6nhbVWS3maxqSrDG7$n0ffDo+/8LEUST4YwEiT5YqjgWFsZKAFXPz07L8tqok=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Cliente Dois",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-11-20T11:21:36.351Z",
+    "email": "cliente2@a.com",
+    "cpf": null,
+    "telefone": null,
+    "data_nascimento": null,
+    "tipo_usuario": 1,
+    "groups": [
+      1
+    ],
+    "user_permissions": []
+  }
+},
+{
   "model": "livraria.autor",
   "pk": 1,
   "fields": {
@@ -11947,6 +12888,106 @@
     "autores": [
       3
     ]
+  }
+},
+{
+  "model": "livraria.compra",
+  "pk": 1,
+  "fields": {
+    "usuario": 3,
+    "status": 1,
+    "tipo_pagamento": 1,
+    "data": "2023-11-20T11:35:58.471Z"
+  }
+},
+{
+  "model": "livraria.compra",
+  "pk": 2,
+  "fields": {
+    "usuario": 3,
+    "status": 1,
+    "tipo_pagamento": 1,
+    "data": "2023-11-20T11:50:13.867Z"
+  }
+},
+{
+  "model": "livraria.compra",
+  "pk": 3,
+  "fields": {
+    "usuario": 4,
+    "status": 1,
+    "tipo_pagamento": 1,
+    "data": "2023-11-20T12:26:49.593Z"
+  }
+},
+{
+  "model": "livraria.itenscompra",
+  "pk": 2,
+  "fields": {
+    "compra": 1,
+    "livro": 52,
+    "quantidade": 2,
+    "preco_item": "20.00"
+  }
+},
+{
+  "model": "livraria.itenscompra",
+  "pk": 3,
+  "fields": {
+    "compra": 1,
+    "livro": 517,
+    "quantidade": 1,
+    "preco_item": "10.00"
+  }
+},
+{
+  "model": "livraria.itenscompra",
+  "pk": 4,
+  "fields": {
+    "compra": 1,
+    "livro": 71,
+    "quantidade": 4,
+    "preco_item": "1.00"
+  }
+},
+{
+  "model": "livraria.itenscompra",
+  "pk": 7,
+  "fields": {
+    "compra": 2,
+    "livro": 52,
+    "quantidade": 5,
+    "preco_item": "10.00"
+  }
+},
+{
+  "model": "livraria.itenscompra",
+  "pk": 8,
+  "fields": {
+    "compra": 2,
+    "livro": 71,
+    "quantidade": 10,
+    "preco_item": "20.00"
+  }
+},
+{
+  "model": "livraria.itenscompra",
+  "pk": 11,
+  "fields": {
+    "compra": 3,
+    "livro": 86,
+    "quantidade": 1,
+    "preco_item": "25.80"
+  }
+},
+{
+  "model": "livraria.itenscompra",
+  "pk": 12,
+  "fields": {
+    "compra": 3,
+    "livro": 352,
+    "quantidade": 1,
+    "preco_item": "1.00"
   }
 }
 ]
