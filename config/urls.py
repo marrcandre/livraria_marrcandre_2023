@@ -46,13 +46,13 @@ urlpatterns = [
     path("api/media/", include(uploader_router.urls)),
     # Admin
     path("admin/", admin.site.urls),
-    # Usuário
-    path("api/usuario/", include(usuario_router.urls)),
     # JWT
     path("token/", TokenObtainPairView.as_view(), name="token_obtain_pair"),
     path("token/refresh/", TokenRefreshView.as_view(), name="token_refresh"),
     # Livraria
     path("api/", include(router.urls)),
+    # Usuário
+    path("api/", include(usuario_router.urls)),
 ]
 
 urlpatterns += static(settings.MEDIA_ENDPOINT, document_root=settings.MEDIA_ROOT)
